@@ -1,15 +1,27 @@
 [gd_resource type="TileSet" load_steps=3 format=3 uid="uid://b26s16wgwi2cn"]
 
-[ext_resource type="Texture2D" uid="uid://cy0wkutmtueyg" path="res://textures/background/background-tile.jpg" id="1_mjkg0"]
+[ext_resource type="Texture2D" uid="uid://dfm8q077t0ejc" path="res://textures/background/extendedgrass.jpg" id="1_mjkg0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ikm38"]
 texture = ExtResource("1_mjkg0")
-texture_region_size = Vector2i(100, 100)
+texture_region_size = Vector2i(50, 50)
 0:0/0 = 0
 1:0/0 = 0
 1:1/0 = 0
 0:1/0 = 0
+2:0/0 = 0
+2:1/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+3:1/0 = 0
+3:3/0 = 0
+2:3/0 = 0
+1:3/0 = 0
+1:2/0 = 0
+0:2/0 = 0
+0:3/0 = 0
+3:0/0 = 0
 
 [resource]
-tile_size = Vector2i(100, 100)
+tile_size = Vector2i(50, 50)
 sources/0 = SubResource("TileSetAtlasSource_ikm38")
